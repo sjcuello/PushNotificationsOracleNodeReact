@@ -49,7 +49,10 @@
   },
   "homepage": "https://github.com/expo/expo-server-sdk-node#readme",
   "dependencies": {
+    "express": "^4.17.1",
+    "https": "^1.0.0",
     "node-fetch": "^2.6.0",
+    "oracledb": "^4.2.0",
     "promise-limit": "^2.7.0"
   },
   "devDependencies": {

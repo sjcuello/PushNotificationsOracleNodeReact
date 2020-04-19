@@ -9,7 +9,8 @@ SJCuello.
 ## Usage
 
 `yarn add expo-server-sdk`
-`npm install `
+
+`npm install oracledb https express`
 
 ## Developing
 
@@ -22,6 +23,15 @@ To build and watch for changes, `npm run watch`.
 ## Developing in Windows
 If build fails then execute `build.sh` in terminal (PowerShell or CMD) 
 
+## Developing in Linux
+
+You need change `build.sh` embedded characters
+
+`sed $'s/\r$//' ./build.sh > ./build.Unix.sh`
+
+`chmod +x ./build.Unix.sh`
+
+`./build.Unix.sh --clang-completer`
 
 
 ## See Also 
